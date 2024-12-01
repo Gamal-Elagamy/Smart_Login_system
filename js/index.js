@@ -64,6 +64,7 @@ function add() {
     }
 
     if (name === "") {
+        alert("Please enter your name");
         // errorMessage.textContent = "Please enter your name";
         return;
     }
